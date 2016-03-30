@@ -67,6 +67,7 @@
     <Content Include="app\images\vadonut.png" />
     <Content Include="app\images\zucchipakoda.png" />
     <Content Include="app\menu.html" />
+    <Content Include="app\scripts\app.js" />
     <Content Include="app\styles\bootstrap-social.css" />
     <Content Include="app\styles\mystyles.css" />
     <Content Include="bower_components\angular\angular-csp.css" />
@@ -221,6 +222,8 @@
     <Content Include="bower_components\jquery\src\var\support.js" />
     <Content Include="bower_components\jquery\src\var\toString.js" />
     <Content Include="bower_components\jquery\src\wrap.js" />
+    <Content Include="Gruntfile.js" />
+    <Content Include="jshint.rc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -387,6 +390,7 @@
     <None Include="index.html" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="package.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -417,6 +421,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
+      <UserProperties package_1json__JSONSchema="" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
