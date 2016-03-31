@@ -223,6 +223,7 @@
     <Content Include="bower_components\jquery\src\var\toString.js" />
     <Content Include="bower_components\jquery\src\wrap.js" />
     <Content Include="Gruntfile.js" />
+    <Content Include="gulpfile.js" />
     <Content Include="jshint.rc" />
     <Content Include="Web.config" />
   </ItemGroup>
